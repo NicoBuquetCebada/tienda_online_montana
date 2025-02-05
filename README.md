@@ -1,6 +1,7 @@
 # Tienda online inspirada en Montana Colors
 Este repositorio contiene una tienda online, hecha con PHP, HTML, CSS.
-Es un proyecto realizado para la asignatura de Entorno-Servidor del grado superior de Desarrollo de Aplicaciones Web, se realizó en grupo y trabajé junto a Jorge López (trastienda) y Fabio Rama(Usuario).
+
+Es un proyecto realizado para la asignatura de Entorno-Servidor del grado superior de Desarrollo de Aplicaciones Web, se realizó en grupo y trabajé junto a Jorge López (trastienda) y Fabio Rama (Usuario).
 
 #### Mi parte del proyecto engloba vistas, controladores, modelos y estilos de: 
   - index
