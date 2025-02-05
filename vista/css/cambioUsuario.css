@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ATRIBUTOS GENERALES */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PT Sans", sans-serif !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* MODELO DE CAJAS */
+body {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#main {
+	width: 60%;
+	height: 60%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: #c3c2c2;
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 20px;
+	/*border-bottom: 2px solid #616161;*/
+}
+
+form {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form *{
+	margin: 10px;
+}
+
+input[type=text], input[type=password] {
+	border: 0;
+	width: 100%;
+	transition: background-color 0.3s ease;
+	background-color: #f0f0f0;
+	padding: 15px;
+}
+
+input[type=text]::placeholder, input[type=password]::placeholder {
+	font-size: 20px;
+	color: #616161;	
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: white;
+	outline: none;
+}
+
+button {
+	padding: 10px;
+	width: 50%;
+	border-radius: 0;
+	border: 0;
+	background-color: #0065d1;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+	margin: 20px;
+	color: white;
+}
+
+button:hover {
+	background-color: #0a7bf5;
+	cursor: pointer;
+}
+
+a {
+	margin-top: auto;
+	color: #0065d1;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: auto;
+	padding: 30px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #0a7bf5;
+}
+
+#aviso {
+	color: red;
+	font-size: 20px;
+	
+}
